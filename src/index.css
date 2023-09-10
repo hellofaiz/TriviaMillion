@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@500;700;900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.heroSectionMainComponent {
+  width: 100vw;
+  height: 100vh;
+  background-color: #456eff;
+  padding: 5rem;
+  overflow: hidden;
+}
+
+.innerMainSection {
+  width: 100%;
+  /* height: 100%; */
+  background-color: #fefefe;
+  border-radius: 5rem;
+  display: flex;
+}
+
+.innerMainSectionLeft {
+  /* background-color: burlywood; */
+  width: 50%;
+  height: 100%;
+  border-radius: 5rem 0 0 5rem;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: center; */
+  align-items: start;
+  padding: 4rem;
+  gap: 2rem;
+}
+.innerMainSectionRight {
+  /* background-color: red; */
+  width: 50%;
+  /* height: 80vh; */
+}
+
+.innerMainSectionLeft > h1 {
+  font-size: 3em;
+  font-weight: 900;
+  font-family: "Roboto";
+}
+.innerMainSectionLeft > p {
+  font-size: 1em;
+  /* font-weight: 00; */
+  font-family: "Roboto";
+  color:grey;
+}
+.innerMainSectionLeft > button {
+  padding: 12px;
+  border-radius: 10px;
+  background-color: #000000;
+  border: none;
+  color: #fefefe;
+}
+.innerMainSectionLeft > button:hover {
+  background-color: #456eff;
+  border: none;
+  color: #000;
+  cursor: pointer;
+}
